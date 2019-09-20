@@ -1,4 +1,3 @@
-<div class="container my-container">
   <div *ngFor="let item of experience">
     <div class="row">
       <h3>{{ item.position }}</h3>
@@ -7,8 +6,10 @@
       <h5>{{ item.company }}, {{ item.dates }}</h5>
     </div>
     <div class="row">
+      <p class="technologies-list" *ngIf="item.technologies">{{ item.technologies }}</p>
+    </div>
+    <div class="row">
       <p>{{ item.description }}</p>
     </div>
   <hr>
   </div>
-</div>

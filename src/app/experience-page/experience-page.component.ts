@@ -43,7 +43,6 @@ export class ExperiencePageComponent implements OnInit {
       position: "Engagement and Outreach Volunteer",
       company: "UCD CS Sparks",
       dates: "08/2019 - 11/2019",
-      technologies: "Scratch",
       description: `
         CS Sparks is an outreach organization aimed at engaging young women from rural Ireland in different aspects 
         of computer science and programming, attempting to offer them a look at those disciplines and helping 
