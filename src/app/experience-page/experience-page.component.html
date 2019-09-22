@@ -1,15 +1,30 @@
-  <div *ngFor="let item of experience">
-    <div class="row">
-      <h3>{{ item.position }}</h3>
+  <div class="row">
+    <div class="col col-xs-8">
+      <div *ngFor="let job of jobs">
+        <div class="row">
+          <h3>{{ job.position }}</h3>
+        </div>
+        <div class="row">
+          <h5>{{ job.company }}, {{ job.dates }}</h5>
+        </div>
+        <div class="row">
+          <p class="technologies-list" *ngIf="job.technologies">{{ job.technologies }}</p>
+        </div>
+        <div class="row">
+          <p>{{ job.description }}</p>
+        </div>
+        <hr>
       </div>
-      <div class="row">
-      <h5>{{ item.company }}, {{ item.dates }}</h5>
     </div>
-    <div class="row">
-      <p class="technologies-list" *ngIf="item.technologies">{{ item.technologies }}</p>
+    <div class="col col-xs-4 text-center">
+      <div *ngFor="let exp of experience">
+        <h2 (click)="headingClicked(exp.heading)">{{ exp.heading }}</h2>
+        <div *ngIf="heading_selection === exp.heading">
+          <div *ngFor="let item of exp.content">
+            <p>{{ item.name }} ({{ item.level }})</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="row">
-      <p>{{ item.description }}</p>
-    </div>
-  <hr>
   </div>
+  

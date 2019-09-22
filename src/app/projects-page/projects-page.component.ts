@@ -38,6 +38,20 @@ export class ProjectsPageComponent implements OnInit {
       `
     },
     {
+      name: 'Multilayer Perceptron',
+      github: 'https://github.com/OsosKP/perceptron',
+      technologies: 'Python',
+      description: `
+        I had a course project to design a multilayer perceptron from the ground up (no built-in libraries). 
+        The perceptron was supposed to be able to interpret two functions: XOR and sin(x1-x2+x3-x4). I also 
+        completed the "bonus" task of tackling handwritten characters from the UCI Letter Recognition Data Set. 
+        In doing this project, I learned a lot from James Loy's article "How to build your own Neural Network 
+        from scratch in Python" and 3B1B's Deep Learning Series on YouTube. This is one of two course projects 
+        that I felt were large enough, and taught me enough with a substantial amount of individual study, 
+        to warrant inclusion in this list.
+      `
+    },
+    {
       name: 'FreshSmell',
       github: 'https://github.com/OsosKP/FreshSmell',
       technologies: 'Java, Spring Boot, Tomcat, JSP, HTML/SCSS',
@@ -62,6 +76,18 @@ export class ProjectsPageComponent implements OnInit {
         This is my upcoming final year project and is currently in the research stage. I will attempt 
         to use Python and a neural network framework to reimagine baseball statistics and find a better 
         way to evaluate players and predict wins.
+      `
+    },
+    {
+      name: 'Web Resumé',
+      github: 'https://github.com/OsosKP/personal-site',
+      technologies: 'Angular, Firebase, HTML/SCSS',
+      description: `
+        You're already here! I completed Maximilian Schwarzmüller's phenomenal course "Angular 8 - 
+        The Complete Guide" on Udemy and wanted to build something on my own to show off what I heard learned. 
+        This site is simple, and doesn't use the more in-depth Angular concepts like Subjects and state 
+        management, but it also serves as a nice place for me to expand on my experience and passins more than 
+        what I could on my actual resumé. This site is written in Angular 8 and hosted on Firebase. 
       `
     }
   ]
