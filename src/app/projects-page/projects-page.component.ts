@@ -86,7 +86,7 @@ export class ProjectsPageComponent implements OnInit {
         You're already here! I completed Maximilian Schwarzmüller's phenomenal course "Angular 8 - 
         The Complete Guide" on Udemy and wanted to build something on my own to show off what I heard learned. 
         This site is simple, and doesn't use the more in-depth Angular concepts like Subjects and state 
-        management, but it also serves as a nice place for me to expand on my experience and passins more than 
+        management, but it also serves as a nice place for me to expand on my experience and passions more than 
         what I could on my actual resumé. This site is written in Angular 8 and hosted on Firebase. 
       `
     }
