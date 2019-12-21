@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experience-page.component.scss']
 })
 export class ExperiencePageComponent implements OnInit {
-  heading_selection:string = '';
+  headingSelection = '';
 
   jobs = [
     {
@@ -46,165 +46,69 @@ export class ExperiencePageComponent implements OnInit {
       company: 'UCD CS Sparks',
       dates: '08/2019 - 11/2019',
       description: `
-        CS Sparks is an outreach organization aimed at engaging young women from rural Ireland in different aspects 
-        of computer science and programming, attempting to offer them a look at those disciplines and helping 
-        them decide if a future in computer science is right for them. I helped in the setup of the various 
-        events hosted for these young women, and served as a curriculumn advisor for the semester-long roadmap.
+        CS Sparks is an outreach organization aimed at engaging young women from rural Ireland in different aspects
+         of computer science and programming, attempting to offer them a look at those disciplines and helping
+         them decide if a future in computer science is right for them. I helped in the setup of the various
+         events hosted for these young women, and served as a curriculumn advisor for the semester-long roadmap.
       `
     },
-  ]
+  ];
 
   experience = [
     {
       heading: 'Languages',
       content: [
-        {
-          name: 'JavaScript',
-          level: 'Experienced'
-        },
-        {
-          name: 'C#',
-          level: 'Experienced'
-        },
-        {
-          name: 'Python',
-          level: 'Intermediate'
-        },
-        {
-          name: 'Java',
-          level: 'Intermediate'
-        },
-        {
-          name: 'HTML/CSS/SCSS',
-          level: 'Intermediate'
-        },
-        {
-          name: 'SQL',
-          level: 'Intermediate'
-        },
-        {
-          name: 'JSON',
-          level: 'Intermediate'
-        },
-        {
-          name: 'C',
-          level: 'Familiar'
-        },
-        {
-          name: 'Ruby',
-          level: 'Familiar'
-        },
-        {
-          name: 'XML',
-          level: 'Familiar'
-        }
+        'JavaScript',
+        'C#',
+        'Python',
+        'Java',
+        'HTML/CSS/SCSS',
+        'SQL',
+        'JSON',
+        'C',
+        'Ruby',
+        'XML',
       ]
     },
     {
       heading: 'Frameworks',
       content: [
-        {
-          name: 'ASP.NET',
-          level: 'Experienced'
-        },
-        {
-          name: 'Node.js',
-          level: 'Intermediate'
-        },
-        {
-          name: 'Angular',
-          level: 'Intermediate'
-        },
-        {
-          name: 'jQuery',
-          level: 'Intermediate'
-        },
-        {
-          name: 'React Native',
-          level: 'Familiar'
-        },
-        {
-          name: 'Spring Boot',
-          level: 'Familiar'
-        },
-        {
-          name: 'Maven',
-          level: 'Familiar'
-        }
+        'ASP.NET',
+        'Node.js',
+        'Angular',
+        'jQuery',
+        'React Native',
+        'Spring Boot',
+        'Maven'
       ]
     },
     {
       heading: 'Methodologies',
       content: [
-        {
-          name: 'Git',
-          level: 'Experienced'
-        },
-        {
-          name: 'REST',
-          level: 'Experienced'
-        },
-        {
-          name: 'Agile/Scrum',
-          level: 'Intermediate'
-        },
-        {
-          name: 'Azure DevOps Server',
-          level: 'Intermediate'
-        }
+        'Git',
+        'REST',
+        'Agile/Scrum',
+        'Azure DevOps Server',
       ]
     },
     {
       heading: 'Technologies',
       content: [
-        {
-          name: 'IntelliJ',
-          level: 'Experienced'
-        },
-        {
-          name: 'Visual Studio',
-          level: 'Experienced'
-        },
-        {
-          name: 'Docker',
-          level: 'Intermediate'
-        },
-        {
-          name: 'Azure',
-          level: 'Familiar'
-        },
-        {
-          name: 'Firebase',
-          level: 'Familiar'
-        },
-        {
-          name: 'Amazon Web Services',
-          level: 'Familiar'
-        },
-        {
-          name: 'Jest',
-          level: 'Familiar'
-        },
-        {
-          name: 'JUnit',
-          level: 'Familiar'
-        },
-        {
-          name: 'MongoDB',
-          level: 'Familiar'
-        },
-        {
-          name: 'MS SQL Server Management Studio',
-          level: 'Familiar'
-        },
-        {
-          name: 'Tomcat',
-          level: 'Familiar'
-        }
+          'IntelliJ',
+          'Visual Studio',
+          'Docker',
+          'Azure',
+          'Firebase',
+          'Amazon Web Services',
+          'Jest',
+          'JUnit',
+          'MongoDB',
+          'MS SQL Server Management Studio',
+          'Tomcat',
       ]
     },
 
-  ]
+  ];
 
   constructor() { }
 
@@ -212,11 +116,10 @@ export class ExperiencePageComponent implements OnInit {
   }
 
   headingClicked(selection: string) {
-    if (this.heading_selection === selection) {
-      this.heading_selection = '';
-    }
-    else {
-      this.heading_selection = selection;
+    if (this.headingSelection === selection) {
+      this.headingSelection = '';
+    } else {
+      this.headingSelection = selection;
     }
   }
 
