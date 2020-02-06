@@ -9,6 +9,7 @@ export class ProjectsPageComponent implements OnInit {
   projects = [
     {
       name: 'Machine Learning and Baseball',
+      github: 'https://github.com/OsosKP/nnmlb',
       technologies: 'Python, Tensorflow 2, Keras',
       description: `
         This is my final-year thesis project, and it consists of five parts: research, data collection,
