@@ -90,7 +90,7 @@ export class ProjectsPageComponent implements OnInit {
         what I could on my actual resumé. This site is written in Angular 8 and hosted on Firebase. 
       `
     }
-  ]
+  ];
 
   constructor() { }
 

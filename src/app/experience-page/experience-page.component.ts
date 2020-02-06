@@ -30,7 +30,7 @@ export class ExperiencePageComponent implements OnInit {
       `
     },
     {
-      position: 'Full-Stack .NET Development Intern',
+      position: 'Software Engineer Intern',
       company: 'Willis Towers Watson',
       dates: '05/2019 - 08/2019',
       technologies: 'C#, ASP.NET, JavaScript/jQuery, HTML/CSS, Visual Studio, Bootstrap, DOM',
@@ -79,7 +79,9 @@ export class ExperiencePageComponent implements OnInit {
         'jQuery',
         'React Native',
         'Spring Boot',
-        'Maven'
+        'Maven',
+        'TensorFlow 2',
+        'Keras'
       ]
     },
     {
@@ -94,7 +96,7 @@ export class ExperiencePageComponent implements OnInit {
     {
       heading: 'Technologies',
       content: [
-          'IntelliJ',
+          'Jetbrains',
           'Visual Studio',
           'Docker',
           'Azure',
@@ -105,6 +107,7 @@ export class ExperiencePageComponent implements OnInit {
           'MongoDB',
           'MS SQL Server Management Studio',
           'Tomcat',
+          'Jupyter'
       ]
     },
 
