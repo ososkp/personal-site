@@ -73,10 +73,12 @@ export class ExperiencePageComponent implements OnInit {
     {
       heading: 'Frameworks',
       content: [
-        'ASP.NET',
         'Node.js',
         'Angular',
         'jQuery',
+        'ASP.NET',
+        'Entity Framework',
+        'LINQ',
         'React Native',
         'Spring Boot',
         'Maven',
@@ -96,7 +98,7 @@ export class ExperiencePageComponent implements OnInit {
     {
       heading: 'Technologies',
       content: [
-          'Jetbrains',
+          'Jetbrains IDEs',
           'Visual Studio',
           'Docker',
           'Azure',
