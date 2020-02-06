@@ -8,30 +8,30 @@ import { Component, OnInit } from '@angular/core';
 export class ContactPageComponent implements OnInit {
   details = [
     {
-      label: "Email",
-      value: "ososkp@gmail.com",
+      label: 'Email',
+      value: 'ososkp@gmail.com',
     },
     {
-      label: "LinkedIn",
-      value: "https://www.linkedin.com/in/kelseyosos/",
+      label: 'LinkedIn',
+      value: 'https://www.linkedin.com/in/kelseyosos/',
     },
     {
-      label: "GitHub",
-      value: "https://github.com/OsosKP",
+      label: 'GitHub',
+      value: 'https://github.com/OsosKP',
     },
     {
-      label: "Phone, WhatsApp",
-      value: "+353 83 863 6727",
+      label: 'Phone, WhatsApp',
+      value: '+353 83 863 6727',
     },
     {
-      label: "Skype",
-      value: "ososkp@gmail.com"
+      label: 'Skype',
+      value: 'ososkp@gmail.com'
     },
     {
-      label: "Google Hangouts",
-      value: "kelsey.osos@ucdconnect.ie",
+      label: 'Google Hangouts',
+      value: 'kelsey.osos@ucdconnect.ie',
     }
-  ]
+  ];
 
   constructor() { }
 

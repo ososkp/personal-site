@@ -11,11 +11,12 @@ export class ProjectsPageComponent implements OnInit {
       name: 'Machine Learning and Baseball',
       technologies: 'Python, Tensorflow 2, Keras',
       description: `
-        This is my upcoming final year project and is currently in the research stage. I will attempt
-         to use Python and a neural network framework to reimagine baseball statistics and find a better
-         way to evaluate players and predict wins. The bulk of the work comes in data prepoccesing making
-         use of Python frameworks like NumPy, Pandas and SciKitLearn and visualization libraries such as
-         MatPlotLib and Seaborn.
+        This is my final-year thesis project, and it consists of five parts: research, data collection,
+         data preprocessing, model construction, model evaluation and tweaking, and results reporting.
+         I will attempt to use Python and a neural network framework to reimagine baseball statistics
+         and find a better way to evaluate players and predict wins. The bulk of the work comes in data
+         prepoccesing making use of Python frameworks like NumPy, Pandas and SciKitLearn and visualization
+         libraries such as MatPlotLib and Seaborn.
       `
     },
     {
