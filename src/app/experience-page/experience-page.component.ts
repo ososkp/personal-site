@@ -13,11 +13,19 @@ export class ExperiencePageComponent implements OnInit {
       position: 'Software Engineer',
       company: 'Willis Towers Watson',
       dates: '07/2019 - Present',
-      technologies: 'C#, ASP.NET, JavaScript/jQuery, SQL, HTML/CSS, Azure DevOps Server, MS SQL Server, Visual Studio, Bootstrap, DOM',
+      technologies:
+        'C#, ASP.NET, JavaScript/jQuery, SQL, HTML/CSS, Azure DevOps Server, MS SQL Server, Visual Studio, Bootstrap, DOM',
       description: `
-        Following a successful internship, I was asked to return to Willis Towers Watson as a software engineer and 
-        continue development on the same intranet application. In this position I engage in daily Scrum huddles and write features 
-        based on specifications designed by a project manager. Version control is maintained through Azure DevOps Server.
+        Following a successful internship, I was asked to return to Willis Towers Watson as a software engineer and
+         continue development on the company's intranet application. In this position I engage in daily Scrum huddles and write features
+         based on specifications designed by a project manager. Version control is maintained through Azure DevOps Server.
+         Along with feature development, I work to reduce technical debt in the legacy architecture by refactoring tightly-coupled,
+         nonworking and needlessly inefficient code. The changes I'm implementing ensure that the code base is easier to follow for
+         newcomers and runs more efficiently for end-users: query time and data preprocessing are shortened and improved.
+         Aside from regular duties, I improved the team's development pipeline by spearheading the adoption of a more structured
+         approach to version control and program flow. This methodology is a trunk-based development system, but I have customized
+         it to fit with the company's project pipeline. As a result of the changes I have implemented, our development history is
+         more structured and categorized. Lifecycles are easier to trace and bugs are easier to track.
       `
     },
     {
@@ -33,12 +41,15 @@ export class ExperiencePageComponent implements OnInit {
       position: 'Software Engineer Intern',
       company: 'Willis Towers Watson',
       dates: '05/2019 - 08/2019',
-      technologies: 'C#, ASP.NET, JavaScript/jQuery, HTML/CSS, Visual Studio, Bootstrap, DOM',
+      technologies:
+        'C#, ASP.NET, JavaScript/jQuery, HTML/CSS, Visual Studio, Bootstrap, DOM',
       description: `
         In the summer after my second year, I began working at Willis Towers Watson as an intern
-        for full-stack .NET development. I had no prior experience with .NET or web design, but was
-        able to learn the necessary technologies and deliver a full CRUD feature of the company's intranet
-        MVC application.
+         for full-stack .NET development. I had no prior experience with .NET or web design, but was
+         able to learn the necessary technologies and deliver a full CRUD feature of the company's intranet
+         MVC application. I achieved this goal several weeks early and spent the remaining time helping
+         coworkers with Excel scripting and honing my ASP.NET and API consumption skills by beginning a
+         personal project, my National Park Directory website.
       `
     },
     {
@@ -51,7 +62,7 @@ export class ExperiencePageComponent implements OnInit {
          them decide if a future in computer science is right for them. I helped in the setup of the various
          events hosted for these young women, and served as a curriculumn advisor for the semester-long roadmap.
       `
-    },
+    }
   ];
 
   experience = [
@@ -64,10 +75,9 @@ export class ExperiencePageComponent implements OnInit {
         'Java',
         'HTML/CSS/SCSS',
         'SQL',
-        'JSON',
+        'JSON/XML',
         'C',
-        'Ruby',
-        'XML',
+        'Ruby'
       ]
     },
     {
@@ -88,37 +98,30 @@ export class ExperiencePageComponent implements OnInit {
     },
     {
       heading: 'Methodologies',
-      content: [
-        'Git',
-        'REST',
-        'Agile/Scrum',
-        'Azure DevOps Server',
-      ]
+      content: ['Git', 'REST', 'Agile/Scrum', 'Azure DevOps Server']
     },
     {
       heading: 'Technologies',
       content: [
-          'Jetbrains IDEs',
-          'Visual Studio',
-          'Docker',
-          'Azure',
-          'Firebase',
-          'Amazon Web Services',
-          'Jest',
-          'JUnit',
-          'MongoDB',
-          'MS SQL Server Management Studio',
-          'Tomcat',
-          'Jupyter'
+        'Jetbrains IDEs',
+        'Visual Studio',
+        'Docker',
+        'Azure',
+        'Firebase',
+        'Amazon Web Services',
+        'Jest',
+        'JUnit',
+        'MongoDB',
+        'MS SQL Server Management Studio',
+        'Tomcat',
+        'Jupyter'
       ]
-    },
-
+    }
   ];
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   headingClicked(selection: string) {
     if (this.headingSelection === selection) {
@@ -127,5 +130,4 @@ export class ExperiencePageComponent implements OnInit {
       this.headingSelection = selection;
     }
   }
-
 }
